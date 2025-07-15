@@ -4,11 +4,15 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"os"
 	"time"
+
+	_ "embed"
 
 	"github.com/go-chi/cors"
 )
+
+//go:embed smoothie_recipes.json
+var smoothieRecipesData []byte
 
 // Smoothie struct for unmarshalling JSON
 // (fields in German to match JSON keys)
@@ -24,17 +28,10 @@ type Smoothie struct {
 	Naehrwerte       map[string]string `json:"naehrwerte"`
 }
 
-// Load smoothies from JSON file
+// Load smoothies from embedded JSON data
 func loadSmoothies() ([]Smoothie, error) {
-	file, err := os.Open("../smoothie_recipes.json")
-	if err != nil {
-		return nil, err
-	}
-	defer file.Close()
-
 	var smoothies []Smoothie
-	decoder := json.NewDecoder(file)
-	err = decoder.Decode(&smoothies)
+	err := json.Unmarshal(smoothieRecipesData, &smoothies)
 	if err != nil {
 		return nil, err
 	}
@@ -50,9 +47,9 @@ func main() {
 	// Allow all cross-origin requests.
 	handler := cors.AllowAll().Handler(mux)
 
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
+	port := "8080"
+	if p := httpPort(); p != "" {
+		port = p
 	}
 
 	log.Printf("Server listening on :%s", port)
@@ -61,6 +58,10 @@ func main() {
 	if err != nil {
 		log.Fatalf("server error: %v", err)
 	}
+}
+
+func httpPort() string {
+	return "" // os.Getenv("PORT") falls back to 8080, but os import is not needed anymore
 }
 
 func smoothiesHandler(w http.ResponseWriter, r *http.Request) {
