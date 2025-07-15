@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "name": "Grüner Power-Smoothie",
+    "kategorie": "Grün",
+    "zutaten": [
+      "1 reife Banane",
+      "2 Handvoll frischer Spinat",
+      "1 Apfel (entkernt)",
+      "1 EL Mandelbutter",
+      "250ml Kokoswasser",
+      "1 TL Chia-Samen",
+      "Saft von 1/2 Zitrone"
+    ],
+    "zubereitung": "Alle Zutaten in den Mixer geben und 60-90 Sekunden lang pürieren bis eine cremige Konsistenz entsteht.",
+    "portionen": 1,
+    "kalorien": 285,
+    "zubereitungszeit": "5 Minuten",
+    "naehrwerte": {
+      "protein": "6g",
+      "kohlenhydrate": "58g",
+      "fett": "8g",
+      "ballaststoffe": "11g"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Beeren-Vanille-Smoothie",
+    "kategorie": "Frucht",
+    "zutaten": [
+      "150g gemischte Beeren (Erdbeeren, Blaubeeren, Himbeeren)",
+      "1 Banane",
+      "200ml Mandelmilch",
+      "2 EL Haferflocken",
+      "1 TL Vanilleextrakt",
+      "1 EL Honig",
+      "5 Eiswürfel"
+    ],
+    "zubereitung": "Beeren waschen, Banane schälen und alles mit den übrigen Zutaten 1-2 Minuten mixen.",
+    "portionen": 1,
+    "kalorien": 245,
+    "zubereitungszeit": "5 Minuten",
+    "naehrwerte": {
+      "protein": "5g",
+      "kohlenhydrate": "52g",
+      "fett": "4g",
+      "ballaststoffe": "8g"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tropischer Mango-Smoothie",
+    "kategorie": "Tropisch",
+    "zutaten": [
+      "1 reife Mango (geschält und entkernt)",
+      "1/2 Ananas (frisch oder gefroren)",
+      "1 Banane",
+      "200ml Kokosmilch",
+      "1 EL Kokosraspel",
+      "Saft von 1 Limette",
+      "1 TL frischer Ingwer (gerieben)"
+    ],
+    "zubereitung": "Mango und Ananas in Stücke schneiden, alle Zutaten mixen bis eine cremige Konsistenz erreicht ist.",
+    "portionen": 1,
+    "kalorien": 320,
+    "zubereitungszeit": "7 Minuten",
+    "naehrwerte": {
+      "protein": "4g",
+      "kohlenhydrate": "65g",
+      "fett": "9g",
+      "ballaststoffe": "7g"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Schokoladen-Erdnussbutter-Smoothie",
+    "kategorie": "Protein",
+    "zutaten": [
+      "1 Banane (gefroren)",
+      "2 EL Erdnussbutter",
+      "1 EL Kakaopulver (ungesüßt)",
+      "250ml Hafermilch",
+      "1 EL Ahornsirup",
+      "1 TL Vanilleextrakt",
+      "1 Handvoll Eiswürfel"
+    ],
+    "zubereitung": "Alle Zutaten in den Mixer geben und 90 Sekunden lang pürieren bis eine cremige Konsistenz entsteht.",
+    "portionen": 1,
+    "kalorien": 385,
+    "zubereitungszeit": "5 Minuten",
+    "naehrwerte": {
+      "protein": "12g",
+      "kohlenhydrate": "48g",
+      "fett": "18g",
+      "ballaststoffe": "8g"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Rote Bete-Himbeer-Smoothie",
+    "kategorie": "Antioxidant",
+    "zutaten": [
+      "1 kleine gekochte Rote Bete",
+      "150g Himbeeren",
+      "1 Apfel (entkernt)",
+      "200ml Cranberrysaft",
+      "1 EL Leinsamen",
+      "1 TL Honig",
+      "1/2 TL Zimt"
+    ],
+    "zubereitung": "Rote Bete schälen und würfeln, mit allen anderen Zutaten 1-2 Minuten mixen.",
+    "portionen": 1,
+    "kalorien": 210,
+    "zubereitungszeit": "6 Minuten",
+    "naehrwerte": {
+      "protein": "4g",
+      "kohlenhydrate": "48g",
+      "fett": "3g",
+      "ballaststoffe": "9g"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Avocado-Gurken-Smoothie",
+    "kategorie": "Grün",
+    "zutaten": [
+      "1/2 reife Avocado",
+      "1 Gurke (geschält)",
+      "1 Apfel (entkernt)",
+      "2 EL frische Minzblätter",
+      "250ml Kokoswasser",
+      "Saft von 1 Limette",
+      "1 TL Agavendicksaft"
+    ],
+    "zubereitung": "Avocado und Gurke grob zerkleinern, alle Zutaten mixen bis eine cremige Konsistenz erreicht ist.",
+    "portionen": 1,
+    "kalorien": 185,
+    "zubereitungszeit": "5 Minuten",
+    "naehrwerte": {
+      "protein": "3g",
+      "kohlenhydrate": "32g",
+      "fett": "8g",
+      "ballaststoffe": "8g"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pfirsich-Ingwer-Smoothie",
+    "kategorie": "Frucht",
+    "zutaten": [
+      "2 reife Pfirsiche (entkernt)",
+      "1 Banane",
+      "200ml Mandelmilch",
+      "1 EL frischer Ingwer (gerieben)",
+      "1 EL Honig",
+      "1/2 TL Kurkuma",
+      "5 Eiswürfel"
+    ],
+    "zubereitung": "Pfirsiche schälen und entkernen, mit allen anderen Zutaten 1-2 Minuten pürieren.",
+    "portionen": 1,
+    "kalorien": 195,
+    "zubereitungszeit": "6 Minuten",
+    "naehrwerte": {
+      "protein": "4g",
+      "kohlenhydrate": "45g",
+      "fett": "3g",
+      "ballaststoffe": "6g"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Blaubeere-Banane-Smoothie",
+    "kategorie": "Antioxidant",
+    "zutaten": [
+      "200g Blaubeeren",
+      "1 Banane",
+      "150ml griechischer Joghurt",
+      "100ml Mandelmilch",
+      "1 EL Honig",
+      "1 EL Mandelsplitter",
+      "1 TL Vanilleextrakt"
+    ],
+    "zubereitung": "Blaubeeren waschen, alle Zutaten in den Mixer geben und 90 Sekunden lang pürieren.",
+    "portionen": 1,
+    "kalorien": 295,
+    "zubereitungszeit": "5 Minuten",
+    "naehrwerte": {
+      "protein": "15g",
+      "kohlenhydrate": "52g",
+      "fett": "6g",
+      "ballaststoffe": "7g"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Karotten-Orangen-Smoothie",
+    "kategorie": "Vitamin",
+    "zutaten": [
+      "2 große Karotten (geschält und gekocht)",
+      "2 Orangen (geschält und entkernt)",
+      "1 Banane",
+      "200ml Kokoswasser",
+      "1 TL frischer Ingwer (gerieben)",
+      "1 EL Honig",
+      "1/2 TL Zimt"
+    ],
+    "zubereitung": "Karotten weich kochen und abkühlen lassen, dann mit allen anderen Zutaten 2 Minuten mixen.",
+    "portionen": 1,
+    "kalorien": 220,
+    "zubereitungszeit": "8 Minuten",
+    "naehrwerte": {
+      "protein": "4g",
+      "kohlenhydrate": "54g",
+      "fett": "1g",
+      "ballaststoffe": "8g"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Protein-Smoothie-Bowl",
+    "kategorie": "Protein",
+    "zutaten": [
+      "1 Banane (gefroren)",
+      "150g gefrorene Beeren",
+      "1 Messlöffel Vanille-Proteinpulver",
+      "100ml Mandelmilch",
+      "1 EL Mandelbutter",
+      "Toppings: Granola, Kokosflocken, frische Beeren"
+    ],
+    "zubereitung": "Alle Zutaten außer Toppings zu einer dicken Masse mixen, in eine Schüssel geben und mit Toppings garnieren.",
+    "portionen": 1,
+    "kalorien": 380,
+    "zubereitungszeit": "7 Minuten",
+    "naehrwerte": {
+      "protein": "28g",
+      "kohlenhydrate": "42g",
+      "fett": "12g",
+      "ballaststoffe": "9g"
+    }
+  }
+]
